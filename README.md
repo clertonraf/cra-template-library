@@ -54,6 +54,11 @@ This is based on the official base template for [Create React App](https://githu
     "homepage": "https://[repository-location/my-lib-name]#readme",
     "keywords": [],
     "author": "[my-name]"
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+      }
     }
   ```
 
