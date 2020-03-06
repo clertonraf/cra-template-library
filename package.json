@@ -1,0 +1,25 @@
+{
+  "name": "cra-template-library",
+  "version": "1.0.0",
+  "description": "a template for creating react libraries easily",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clertonraf/cra-template-library.git"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "keywords": [
+    "library",
+    "react",
+    "component"
+  ],
+  "author": "Clerton Araujo <clertonfilho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clertonraf/cra-template-library/issues"
+  },
+  "homepage": "https://github.com/clertonraf/cra-template-library#readme"
+}
